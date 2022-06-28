@@ -1,0 +1,271 @@
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .nav-link{
+      color: #00ccb1;
+  }
+  
+  .slogan {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: #00b39b;
+    font-size: 1.875em;
+    font-weight: 500;
+    font-family: 'Work Sans',Arial,sans-serif;    
+  }
+
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    gap: 40px;
+    font-family:arial,sans-serif;
+    color: #747474;
+  }
+nav{
+    border-bottom: 0.5px solid;
+    color: transparent;
+
+}
+.navbar-collapse{
+    flex-grow: unset;
+}
+.navbar-logo{
+    border:0px;
+    background-color: transparent;
+}
+.flex-container {
+    margin: 140px;
+    padding: 20px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .patients {
+    border-radius: 10px;
+    width: 600px;
+    background-color: #00ccb1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+
+  }
+  .doctors {
+    border-radius: 10px;
+    width: 600px;
+    background-color: #3d83df;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+
+  }
+  .clinics {
+    border-radius: 10px;
+    width: 600px;
+    background-color: #1b2734;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+  }
+   .logos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 40px;
+       }    
+
+   .brands{
+       display: flex;
+       justify-content: space-evenly;
+       margin: 150px;
+       }
+
+   .we{
+       font-family: 'work sans',arial,sans-serif;
+       font-weight: 300;
+       color: #00ccb1;
+       display: flex;
+       padding: 20px;
+   }
+
+   .stats{
+       display: flex;
+       justify-content: space-evenly;
+       background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+
+       }
+
+    .cont{
+      display: flex;
+      flex-direction: column;
+    }
+    .headline{
+      text-align: center;
+      margin-top: 70px;
+      font-family: 'work sans',arial,sans-serif;
+      font-weight: 300;
+      letter-spacing: 3px;
+      color: #00b39b;
+    }   
+    .headp{
+      margin-top: 10px;
+      font-size: .875em;
+      font-weight: 400;
+      font-family: 'roboto',arial,sans-serif;
+      color: #747474;
+    }
+
+    .col1{
+      display: flex;
+      flex-direction: row;
+      margin-top: 70px;
+    }
+    .col3{
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+     }
+    
+  
+    .box1, .box3{
+        width: 200px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 5px;
+        background-color: #fff;
+        margin: 10px;
+        padding: 15px;
+        text-align: center;
+        font-size: .8125em;
+        color:#000000;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .box2, .box4{
+      width: 200px;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      border-radius: 5px;
+      background-color: #fff;
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      font-size: .8125em;
+      color:#060606;
+      font-family: 'Work Sans', sans-serif;
+      transform: translateY(-30px);
+  }
+  .slogan2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #00b39b;
+    font-size: 1.875em;
+    font-weight: 500;
+    font-family: 'Work Sans',Arial,sans-serif;    
+  }
+
+
+  .mission2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    gap: 40px;
+    font-family:arial,sans-serif;
+    color: #747474;
+  }
+
+  .countries{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 100px;
+    justify-content: space-between;
+
+
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #3d83df;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    margin-right: 20px;
+    float: right;
+  }
+  .warsaw, .Barcelona, .Munich, .Istanbul, .Rome, .Bologna, .Curitiba, .mexico {
+    text-align: left;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  h5{
+    margin-left: 20px;
+    color: #747474;
+  }
+  h2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: #000000;
+  }
+  .button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3d83df;
+    border: none;
+    border-radius: 5px;
+    }
+
+    .foot {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+      padding: 20px;
+      color: #000000;
+    }
+    
+
+
