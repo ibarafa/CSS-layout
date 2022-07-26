@@ -1,3 +1,7 @@
+body {
+font-family: roboto, arial, sans-serif;
+color: #747474;
+}
 
 .logo {
     display: flex;
@@ -7,7 +11,8 @@
   .nav-link{
       color: #00ccb1;
   }
-  
+
+
   .slogan {
     display: flex;
     text-align: center;
@@ -265,6 +270,13 @@ nav{
       justify-content: space-around;
       padding: 20px;
       color: #000000;
+    }
+    @media {min-width: 360px} and {max-width: 760px}{
+      .vision,
+      .mission,
+      .slogan,
+      .mission2,
+      .slogan2,
     }
     
 
